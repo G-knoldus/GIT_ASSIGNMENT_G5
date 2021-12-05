@@ -43,3 +43,40 @@ sudo apt-get update
 ```sh
 sudo apt-get install git-all
 ```
+
+## Commands
+
+- Define auther name to be used for all the commits in the current repository
+```sh
+$ git config user.name <name>
+```
+
+
+- Create empty github repository in the specified folder, run with no arguments
+```sh
+$ git init
+```
+
+- Stage all the changes in the directory  for the next commit
+```sh
+$ git add <dir_name> or *
+```
+
+- Commit the staged snapshot but instead of launching the text editor
+```sh
+$ git commit -m "<message>"
+```
+- List which file are staged, unstaged, untracked
+```sh
+$ git status
+```
+
+- Create a new connection to a remote repository
+```sh
+$ git remote add origin <origin link>
+```
+
+- Push the branch to the remote repository along with necessary commits
+```sh
+$ git push origin <branch_name>
+```
